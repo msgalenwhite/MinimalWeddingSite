@@ -9,6 +9,7 @@ import DummyRSVP from './components/DummyRSVP'
 import Invitation from './components/Invitation'
 import Transportation from './components/Transportation'
 import About from './components/About'
+import Weather from './components/Weather'
 
 const App = props => {
   return(
@@ -33,6 +34,10 @@ const App = props => {
       <Route
         path='/wedding/transportation'
         component={Transportation}
+      />
+      <Route
+        path='/wedding/weather'
+        component={Weather}
       />
       <Route
         path='/coolsite!'

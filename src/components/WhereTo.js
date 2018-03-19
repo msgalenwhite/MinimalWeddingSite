@@ -5,10 +5,10 @@ const WhereTo = props => {
   //we will bring RSVP live on July 1st.
 
   let likeToDo = [
-    {
-      path: '/wedding/invitation',
-      text: 'View the Invitation'
-    },
+    // {
+    //   path: '/wedding/invitation',
+    //   text: 'View the Invitation'
+    // },
     {
       path: '/wedding/checkbacksoon',
       text: 'Make an RSVP'
@@ -26,6 +26,10 @@ const WhereTo = props => {
       text: 'View the Registry',
       aTag: true
     },
+    // {
+    //   path: '/wedding/weather',
+    //   text: 'October Weather'
+    // },
     {
       path: '/coolsite!',
       text: 'What a cool site!'
@@ -58,7 +62,8 @@ const WhereTo = props => {
   let comingSoon = [
     "See Stories that Friends/Family have Shared",
     "'On the Day' Schedule",
-    "Rehearsal Dinner Information"
+    "Rehearsal Dinner Information",
+    "New England Weather in October"
   ]
 
   let soonList = comingSoon.map((item) => {
