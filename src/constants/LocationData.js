@@ -51,7 +51,7 @@ let locationData = {
   localHaunts: [
     {
       name: "Salem, MA",
-      note: "Because Salem, MA is such a popular place to visit in the month of October, I highly recommend carpooling or taking an Uber into town.  If you do decide to drive, parking is very difficult every day in October.  Please budget at least twice the travel time that Google Maps supplies when traveling to/from Salem, MA.",
+      note: "Because Salem, MA is such a popular place to visit in the month of October, I highly recommend taking an Uber into town or using the local commuter rail station in Gloucester.  The commputer rail stop in Salem is across the street from the downtown area, and a great way to get around.  If you do decide to drive, parking is very difficult every day in October.  Please budget at least twice the travel time that Google Maps supplies when traveling to/from Salem, MA.",
       website: "https://hauntedhappenings.org/"
     },
     {

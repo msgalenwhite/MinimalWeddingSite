@@ -22,7 +22,7 @@ const WhereTo = props => {
       text: 'Travel Tips'
     },
     {
-      path: 'https://www.amazon.com/wedding/galen-white-chris-bimbo-gloucester-october-2018/registry/7ZDHYRQ9I313',
+      path: '/wedding/registry',
       text: 'View the Registry',
       aTag: true
     },

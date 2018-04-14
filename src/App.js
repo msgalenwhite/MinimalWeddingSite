@@ -10,6 +10,7 @@ import Invitation from './components/Invitation'
 import Transportation from './components/Transportation'
 import About from './components/About'
 import Weather from './components/Weather'
+import Registry from './components/Registry'
 
 const App = props => {
   return(
@@ -38,6 +39,10 @@ const App = props => {
       <Route
         path='/wedding/weather'
         component={Weather}
+      />
+      <Route
+        path='/wedding/registry'
+        component={Registry}
       />
       <Route
         path='/coolsite!'
